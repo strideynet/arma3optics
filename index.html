@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>ARMA 3 Optics Guide</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- restore the following two lines for development -->
+    <!-- <link rel="stylesheet/less" type="text/css" href="css/styles.less" /> -->
+    <!-- <script src="js/less.min.js" type="text/javascript"></script> -->
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
+    <link rel="icon" href="img/favicon.png">
+
+    <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'INSERTGAIDHERE']);
+        _gaq.push(['_trackPageview']);
+        
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="topnav" class="col-xs-10 col-xs-offset-1">
+
+                <a href="https://github.com/travhimself/arma3optics">View on Github</a>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="xs-col-12">
+
+                <header>
+                    <h1 id="hero">ARMA 3 Optics Guide</h1>
+                </header>
+
+            </div>
+        </div>
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_acosmg.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <img src="img/sights_acosmgred.jpg" class="active">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>ACO SMG (Red)</h3>
+                <h4>Advanced Collimator Optics</h4>
+                <div class="notes">Illuminated crosshair with ringed red dot</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>1</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>100m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>100m</dd>
+                    <dt>View Modes</dt>
+                    <dd>1</dd>
+                    <dt>Best for</dt>
+                    <dd>SMGs in 9mm, .45ACP</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_acosmg.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <img src="img/sights_acosmggreen.jpg" class="active">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>ACO SMG (Green)</h3>
+                <h4>Advanced Collimator Optics</h4>
+                <div class="notes">Illuminated 3-post crosshair with green dot</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>1</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>100m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>100m</dd>
+                    <dt>View Modes</dt>
+                    <dd>1</dd>
+                    <dt>Best for</dt>
+                    <dd>SMGs in 9mm, .45ACP</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_mk17smg.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <img src="img/sights_mk17.jpg" class="active">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>Mk17 Holosight SMG</h3>
+                <h4>Mk17 Holosight SMG</h4>
+                <div class="notes">Illuminated ring with red dot</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>1-2</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>100m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>100m</dd>
+                    <dt>View Modes</dt>
+                    <dd>1</dd>
+                    <dt>Best for</dt>
+                    <dd>SMGs in 9mm, .45ACP</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_aco.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <img src="img/sights_acored.jpg" class="active">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>ACO (Red)</h3>
+                <h4>Advanced Collimator Optics</h4>
+                <div class="notes">Illuminated segmented ring with red dot</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>1</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>200m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>200m</dd>
+                    <dt>View Modes</dt>
+                    <dd>1</dd>
+                    <dt>Best for</dt>
+                    <dd>Carbines / Rifles in 5.56mm / 6.5mm</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_aco.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <img src="img/sights_acogreen.jpg" class="active">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>ACO (Green)</h3>
+                <h4>Advanced Collimator Optics</h4>
+                <div class="notes">Illuminated chevron with green dot</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>1</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>200m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>200m</dd>
+                    <dt>View Modes</dt>
+                    <dd>1</dd>
+                    <dt>Best for</dt>
+                    <dd>Carbines / Rifles in 5.56mm / 6.5mm</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_mk17.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <img src="img/sights_mk17.jpg" class="active">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>Mk17 Holosight</h3>
+                <h4>Mk17 Holosight</h4>
+                <div class="notes">Illuminated ring with red dot</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>1-2</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>200m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>200m</dd>
+                    <dt>View Modes</dt>
+                    <dd>1</dd>
+                    <dt>Best for</dt>
+                    <dd>Carbines / Rifles in 5.56mm / 6.5mm</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_rco.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <div class="modes">
+                    <a href="#" data-mode-button="a" class="active">A</a>
+                    <a href="#" data-mode-button="b">B</a>
+                </div>
+                <img src="img/sights_rco_a.jpg" data-mode-target="a" class="active">
+                <img src="img/sights_rco_b.jpg" data-mode-target="b">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>RCO</h3>
+                <h4>Rifle Combat Optics</h4>
+                <div class="notes">Crosshair with red dot and ballistic markings; mounted reflex red dot</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>2</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>300m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>300m</dd>
+                    <dt>View Modes</dt>
+                    <dd>2</dd>
+                    <dt>Best for</dt>
+                    <dd>Carbines / Rifles / LMGs in 5.56mm / 6.5mm / 7.62mm</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_arco.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <div class="modes">
+                    <a href="#" data-mode-button="a" class="active">A</a>
+                    <a href="#" data-mode-button="b">B</a>
+                </div>
+                <img src="img/sights_arco_a.jpg" data-mode-target="a" class="active">
+                <img src="img/sights_arco_b.jpg" data-mode-target="b">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>ARCO</h3>
+                <h4>Advanced Rifle Combat Optics</h4>
+                <div class="notes">Illuminated crosshair with chevron and ballistic markings; mounted reflex green dot</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>2</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>300m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>300m</dd>
+                    <dt>View Modes</dt>
+                    <dd>2</dd>
+                    <dt>Best for</dt>
+                    <dd>Carbines / Rifles / LMGs in 5.56mm / 6.5mm / 7.62mm</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_mrco.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <div class="modes">
+                    <a href="#" data-mode-button="a" class="active">A</a>
+                    <a href="#" data-mode-button="b">B</a>
+                </div>
+                <img src="img/sights_mrco_a.jpg" data-mode-target="a" class="active">
+                <img src="img/sights_mrco_b.jpg" data-mode-target="b">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>MRCO</h3>
+                <h4>MRCO</h4>
+                <div class="notes">Crosshair with red dot and ballistic hashes; CQB and zoom modes</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>1-2</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>300m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>300m</dd>
+                    <dt>View Modes</dt>
+                    <dd>2</dd>
+                    <dt>Best for</dt>
+                    <dd>Carbines / Rifles / LMGs in 5.56mm / 6.5mm / 7.62mm</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_dms.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <div class="modes">
+                    <a href="#" data-mode-button="a" class="active">A</a>
+                    <a href="#" data-mode-button="b">B</a>
+                </div>
+                <img src="img/sights_dms_a.jpg" data-mode-target="a" class="active">
+                <img src="img/sights_dms_b.jpg" data-mode-target="b">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>DMS</h3>
+                <h4>Designated Marksman Scope</h4>
+                <div class="notes">Crosshair with windage markings, ballistic chevrons, and man measures; mounted reflex red chevron</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>2-4</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>100m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>1000m</dd>
+                    <dt>View Modes</dt>
+                    <dd>2</dd>
+                    <dt>Best for</dt>
+                    <dd>Long Rifles in 6.5mm / 7.62mm / 9.3mm / 12.7mm / .338 Lapua</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_mos.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <div class="modes">
+                    <a href="#" data-mode-button="a" class="active">A</a>
+                    <a href="#" data-mode-button="b">B</a>
+                </div>
+                <img src="img/sights_mos_a.jpg" data-mode-target="a" class="active">
+                <img src="img/sights_mos_b.jpg" data-mode-target="b">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>MOS</h3>
+                <h4>Marksman Optical Sights</h4>
+                <div class="notes">Crosshair with windage markings and ballistic hashes; mounted peep sight</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>2.5-5</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>300m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>1000m</dd>
+                    <dt>View Modes</dt>
+                    <dd>2</dd>
+                    <dt>Best for</dt>
+                    <dd>Long Rifles in 6.5mm / 7.62mm / 9.3mm / 12.7mm / .338 Lapua</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/dlc-icon-marksman.png" class="dlc-icon marksman">
+                <img src="img/appearance_ams.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <div class="modes">
+                    <a href="#" data-mode-button="a" class="active">A</a>
+                    <a href="#" data-mode-button="b">B</a>
+                </div>
+                <img src="img/sights_ams_a.jpg" data-mode-target="a" class="active">
+                <img src="img/sights_ams_b.jpg" data-mode-target="b">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>AMS</h3>
+                <h4>Advanced Marksman Scope</h4>
+                <div class="notes">Crosshair with windage markings and ballistic hashes; mounted reflex red dot</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>3-10</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>300m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>1000m</dd>
+                    <dt>View Modes</dt>
+                    <dd>2</dd>
+                    <dt>Best for</dt>
+                    <dd>Long Rifles in 6.5mm / 7.62mm / 9.3mm / 12.7mm / .338 Lapua</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/dlc-icon-marksman.png" class="dlc-icon marksman">
+                <img src="img/appearance_kahlia.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <div class="modes">
+                    <a href="#" data-mode-button="a" class="active">A</a>
+                    <a href="#" data-mode-button="b">B</a>
+                </div>
+                <img src="img/sights_kahlia_a.jpg" data-mode-target="a" class="active">
+                <img src="img/sights_kahlia_b.jpg" data-mode-target="b">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>Kahlia</h3>
+                <h4>Kahlia</h4>
+                <div class="notes">Crosshair with windage markings and ballistic hashes; mounted 3-dot pistol-style irons</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>5-11</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>300m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>1000m</dd>
+                    <dt>View Modes</dt>
+                    <dd>2</dd>
+                    <dt>Best for</dt>
+                    <dd>Long Rifles in 6.5mm / 7.62mm / 9.3mm / 12.7mm / .338 Lapua</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_lrps.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <img src="img/sights_lrps.jpg" class="active">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>LRPS</h3>
+                <h4>Long Range Precision Scope</h4>
+                <div class="notes">Crosshair with Mil dots</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>6-25</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>300m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>1000m</dd>
+                    <dt>View Modes</dt>
+                    <dd>1</dd>
+                    <dt>Best for</dt>
+                    <dd>Sniper Rifles in 12.7mm / .408</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_tws.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <div class="modes">
+                    <a href="#" data-mode-button="a" class="active">A</a>
+                    <a href="#" data-mode-button="b">B</a>
+                    <a href="#" data-mode-button="c">C</a>
+                </div>
+                <img src="img/sights_tws_a.jpg" data-mode-target="a" class="active">
+                <img src="img/sights_tws_b.jpg" data-mode-target="b">
+                <img src="img/sights_tws_c.jpg" data-mode-target="c">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>TWS</h3>
+                <h4>Thermal Weapon Sight</h4>
+                <div class="notes">Illuminated crosshair with built-in rangefinder; normal, black-hot, and white-hot modes</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>4-10</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>100m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>1000m</dd>
+                    <dt>View Modes</dt>
+                    <dd>3</dd>
+                    <dt>Best for</dt>
+                    <dd>Rifles / Long Rifles in 5.56mm / 6.5mm / 7.62mm / 9.3mm / 12.7mm / .338 Lapua</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_twsmg.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <div class="modes">
+                    <a href="#" data-mode-button="a" class="active">A</a>
+                    <a href="#" data-mode-button="b">B</a>
+                    <a href="#" data-mode-button="c">C</a>
+                </div>
+                <img src="img/sights_twsmg_a.jpg" data-mode-target="a" class="active">
+                <img src="img/sights_twsmg_b.jpg" data-mode-target="b">
+                <img src="img/sights_twsmg_c.jpg" data-mode-target="c">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>TWS MG</h3>
+                <h4>Thermal Weapon Sight MG</h4>
+                <div class="notes">Illuminated crosshair with ballistic hashes; normal, black-hot, and white-hot modes</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>4-10</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>100m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>1600m</dd>
+                    <dt>View Modes</dt>
+                    <dd>3</dd>
+                    <dt>Best for</dt>
+                    <dd>LMGs and MMGs in 6.5mm / 7.62mm / 9.3mm / .338 Lapua</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_nightstalker.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <div class="modes">
+                    <a href="#" data-mode-button="a" class="active">A</a>
+                    <a href="#" data-mode-button="b">B</a>
+                    <a href="#" data-mode-button="c">C</a>
+                    <a href="#" data-mode-button="d">D</a>
+                </div>
+                <img src="img/sights_nightstalker_a.jpg" data-mode-target="a" class="active">
+                <img src="img/sights_nightstalker_b.jpg" data-mode-target="b">
+                <img src="img/sights_nightstalker_c.jpg" data-mode-target="c">
+                <img src="img/sights_nightstalker_d.jpg" data-mode-target="d">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>Nightstalker</h3>
+                <h4>Nightstalker</h4>
+                <div class="notes">Illuminated crosshair with chevron; normal, night vision, and thermal modes</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>4-10</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>100m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>1000m</dd>
+                    <dt>View Modes</dt>
+                    <dd>4</dd>
+                    <dt>Best for</dt>
+                    <dd>Long Rifles in 6.5mm / 7.62mm / 9.3mm / 12.7mm / .338 Lapua</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row entry">
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 appearance">
+                <img src="img/appearance_nvs.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-3 col-xs-offset-1 col-sm-offset-0 sights">
+                <img src="img/sights_nvs.jpg" class="active">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1 col-sm-offset-0 data">
+                <h3>NVS</h3>
+                <h4>Night Vision Scope</h4>
+                <div class="notes">Illuminated crosshair with ballistic hashes; permament night vision mode</div>
+                <dl>
+                    <dt>Magnification</dt>
+                    <dd>5</dd>
+                    <dt>Zero (min)</dt>
+                    <dd>300m</dd>
+                    <dt>Zero (max)</dt>
+                    <dd>300m</dd>
+                    <dt>View Modes</dt>
+                    <dd>1</dd>
+                    <dt>Best for</dt>
+                    <dd>Carbines / Rifles / Long Rifles in 5.56mm / 6.5mm / 7.62mm</dd>
+                </dl>
+            </div>
+        </div><!-- end .row.entry -->
+
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+
+                <footer>
+                    <p>This site and its code are licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>.
+                </footer>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
